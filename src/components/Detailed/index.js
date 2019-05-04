@@ -131,7 +131,7 @@ class DetailedPageAuth extends React.Component {
 
     buyClickHandler() {
         axios.delete('https://rkproject.herokuapp.com/api/books/' + this.state.id).then(() => {
-            window.location.href = 'http://localhost:3000';
+            window.location.href = 'https://wqyjason.github.io/booook';
         })
     }
 
