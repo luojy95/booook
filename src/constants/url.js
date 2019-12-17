@@ -1,1 +1,0 @@
-export const url = 'https://rkproject.herokuapp.com'
